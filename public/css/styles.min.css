@@ -486,7 +486,8 @@ body.rtl .content-wrapper,
 body.rtl .main-footer,
 body.rtl .main-header {
     margin-left: 0!important;
-    margin-right: 250px!important
+    /* margin-right: 250px!important */
+    margin-right: 0px!important
 }
 
 body.rtl .mr-auto-navbav {
@@ -539,7 +540,7 @@ body.rtl .small-box .icon>i {
     body.rtl .main-sidebar,
     body.rtl .main-sidebar::before {
         box-shadow: none!important;
-        margin-right: -250px
+        margin-right: -250px;
     }
     body.rtl .content-wrapper,
     body.rtl .content-wrapper::before,
